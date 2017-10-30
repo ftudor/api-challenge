@@ -1,8 +1,7 @@
 
 # API Challenge
 
-Design and create a RESTful API that could be used to manage a list of dog images. The API is meant to act as the backend to the [Dog Breed App]
-(https://gist.github.com/maxdisney/26e421c68f5d543be5b2), which is being built by a different team.
+Design and create a RESTful API that could be used to manage a list of dog images. The API is meant to act as the backend to the [Dog Breed App] which is being built by a different team.
 
 # Requirements
 
@@ -65,7 +64,7 @@ $ mvn spring-boot:run
 or you can run the jar file from the build:
 
 ```
-$ java -jar target/api_interview-0.1.0.jar
+$ java -jar target/api_challenge-0.1.0.jar
 ```
 
 # Build, Deployment and Running
