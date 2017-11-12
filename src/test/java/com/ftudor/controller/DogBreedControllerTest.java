@@ -96,8 +96,7 @@ public class DogBreedControllerTest {
         RequestBuilder requestBuilder = MockMvcRequestBuilders.get(URI_COLLECTION).accept(MediaType.APPLICATION_JSON);
         MvcResult result = mockMvc.perform(requestBuilder).andReturn();
         MockHttpServletResponse response = result.getResponse();
-        ApiError error = mapper.readValue(response.getContentAsString(), ApiError.class);
-        assertEquals(error.getCode(), HttpStatus.NO_CONTENT.value());
+        assertEquals(response.getStatus(), HttpStatus.OK.value());
     }
 
     @Test

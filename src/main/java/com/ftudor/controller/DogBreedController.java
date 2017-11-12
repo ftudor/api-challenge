@@ -51,10 +51,7 @@ public class DogBreedController {
             dbPictures.add(it.next());
         }
 
-        //return 204 No Content if collection is empty
-        if(dbPictures.isEmpty()) {
-            throw new DogException(HttpStatus.NO_CONTENT.value(), "No content");
-        }
+        //it's OK to return 200 OK for empty collections
 
         return dbPictures;
     }
@@ -83,11 +80,7 @@ public class DogBreedController {
         }
         dbPictures = repository.findByBreedOrderByVotesDesc(dogBreed);
 
-
-        //return 204 No Content if collection is empty
-        if(dbPictures.isEmpty()){
-            throw new IllegalStateException(EMPTY_COLLECTION);
-        }
+        //it's OK to return 200 OK for empty collections
 
         return dbPictures;
     }
