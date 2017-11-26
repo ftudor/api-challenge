@@ -77,16 +77,3 @@ While this falls outside of the challenge, please consider the following as you 
 * How would you configure the app as it goes from dev, to qa and finally to production?
 * How would you insulate the app from a downstream API if it had one.
 
-# Submitting the Project
-
-You will also receive an invitation to your own private repository on gitlab.com. Push your code to that repository as
-you go. Instructions are provided by gitlab.com on how to push your code to a new repo.
-
-# Duration
-
-You will have until the end of the day to complete the challenge. In our tests, we found it to take us about 3 hours to build.
-We encourage you to spend any leftover time to polish/document/test your app. Please send us a zip file of your challenge when completed.
-
-The timestamp of your last commit will be used to gage how long you worked on this project.
-
-
